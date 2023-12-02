@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tienda Muebles</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/nosotros/nosotros.html">Nosotros</a></li>
+                <li><a href="/tienda/tienda.html">Tienda</a></li>
+                <li><a href="/blog/blog.html">Blog</a></li>
+                <li><a href="/galeria/galeria.html">Galeria</a></li>
+                <li><a href="/contacto/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <form>
+            <FIEldset>
+                <legend>Tus datos</legend>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" placeholder="TU NOMBRE" required>
+                </div>
+                <div>
+                    <label for="asunto">Asunto:</label>
+                    <input id="asunto" type="text" placeholder="TU ASUNTO" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="TU EMAIL">
+                </div>
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input id="telefono" type="tel" placeholder="TU TELEFONO">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="20" rows="10" placeholder="TU MENSAJE"></textarea>
+                </div>
+            </FIEldset>
+            <FIeldset>
+                <legend>PAÍS</legend>
+                <div>
+                    <label for="pais">País</label>
+                    <select id="pais">
+                        <option>-- Seleccione --</option>
+                        <option value="MX">México</option>
+                        <option value="PE">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentina</option>
+                        <option value="ES">España</option>
+                        <option value="CL">Chile</option>
+                    </select>
+                </div>
+            </FIeldset>
+            <fieldset>
+                <legend>INFORMACIÓN EXTRA</legend>
+                <div>
+                    <label for="cliente">Cliente</label>
+                    <input id="cliente" type="radio" name="extra">
+                </div>
+                <div>
+                    <label for="proveedor">Proveedor</label>
+                    <input id="proveedor" type="radio" name="extra">
+                </div>
+                <div>
+                    <label for="categorias">Categoria de Interés</label>
+                    <input list="categorias" name="categorias">
+                    <datalist id="categorias">
+                        <option value="Cocina"></option>
+                        <option value="Exterior"></option>
+                        <option value="Recamaras"></option>
+                        <option value="Oficina"></option>
+                        <option value="Televisión"></option>
+                    </datalist>
+                </div>
+            </fieldset>
+            <button class="button">Enviar Formulario</button>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h3>Categorías</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">Cocina</a></li>
+                    <li><a href="#">Oficina</a></li>
+                    <li><a href="#">Jardin</a></li>
+                    <li><a href="#">Cochera</a></li>
+                    <li><a href="#">Dormitorio</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h3>Sobre Nosotros</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Misión, visión y valores</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                    <li><a href="#">Términos del Servicio</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h3>Soporte</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Ayuda en linea</a></li>
+                    <li><a href="#">Confianza y Seguridad</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>Todos los derechos Reservados, TiendaMuebles</p>
+    </footer>
+</body>
+
+</html>
